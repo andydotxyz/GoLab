@@ -1,0 +1,362 @@
+{
+  "Fysion": {
+    "Version": "1"
+  },
+  "Metadata": {
+    "height": "408",
+    "width": "252"
+  },
+  "Screens": [
+    {
+      "Object": {
+        "Type": "*fyne.Container",
+        "Layout": "Stack",
+        "Objects": [
+          {
+            "Type": "*container.AppTabs",
+            "Name": "tabs",
+            "Struct": {
+              "Items": [
+                {
+                  "Content": {
+                    "Type": "*fyne.Container",
+                    "Layout": "Border",
+                    "Objects": [
+                      {
+                        "Type": "*fyne.Container",
+                        "Layout": "Border",
+                        "Objects": [
+                          {
+                            "Type": "*widget.Label",
+                            "Struct": {
+                              "Hidden": false,
+                              "Text": "Welcome to an unnofficial GoLab App. Explore the conference talks and manage your plan.",
+                              "Alignment": 0,
+                              "Wrapping": 3,
+                              "TextStyle": {
+                                "Bold": false,
+                                "Italic": false,
+                                "Monospace": false,
+                                "Symbol": false,
+                                "TabWidth": 0,
+                                "Underline": false
+                              },
+                              "Truncation": 0,
+                              "Importance": 0
+                            }
+                          },
+                          {
+                            "Type": "*widget.Button",
+                            "Actions": {
+                              "OnTapped": "g.showAbout"
+                            },
+                            "Struct": {
+                              "Hidden": false,
+                              "Text": "",
+                              "Icon": "HelpIcon",
+                              "Importance": 0,
+                              "Alignment": 0,
+                              "IconPlacement": 0
+                            }
+                          }
+                        ],
+                        "Properties": {
+                          "bottom": "",
+                          "layout": "Border",
+                          "left": "",
+                          "right": "1",
+                          "top": ""
+                        }
+                      },
+                      {
+                        "Type": "*fyne.Container",
+                        "Layout": "VBox",
+                        "Objects": [
+                          {
+                            "Type": "*fyne.Container",
+                            "Layout": "Center",
+                            "Objects": [
+                              {
+                                "Type": "*widget.Hyperlink",
+                                "Struct": {
+                                  "Hidden": false,
+                                  "Text": "GoLab website",
+                                  "URL": {
+                                    "Scheme": "https",
+                                    "Opaque": "",
+                                    "User": null,
+                                    "Host": "golab.io",
+                                    "Path": "/",
+                                    "RawPath": "",
+                                    "OmitHost": false,
+                                    "ForceQuery": false,
+                                    "RawQuery": "",
+                                    "Fragment": "",
+                                    "RawFragment": ""
+                                  },
+                                  "Alignment": 0,
+                                  "Wrapping": 0,
+                                  "TextStyle": {
+                                    "Bold": false,
+                                    "Italic": false,
+                                    "Monospace": false,
+                                    "Symbol": false,
+                                    "TabWidth": 0,
+                                    "Underline": false
+                                  },
+                                  "Truncation": 0,
+                                  "SizeName": ""
+                                }
+                              }
+                            ],
+                            "Properties": {
+                              "layout": "Center"
+                            }
+                          },
+                          {
+                            "Type": "*widget.Label",
+                            "Struct": {
+                              "Hidden": false,
+                              "Text": "November 11th - 13th 2024",
+                              "Alignment": 1,
+                              "Wrapping": 0,
+                              "TextStyle": {
+                                "Bold": false,
+                                "Italic": false,
+                                "Monospace": false,
+                                "Symbol": false,
+                                "TabWidth": 0,
+                                "Underline": false
+                              },
+                              "Truncation": 0,
+                              "Importance": 0
+                            }
+                          }
+                        ],
+                        "Properties": {
+                          "dir": "vertical",
+                          "layout": "VBox"
+                        }
+                      },
+                      {
+                        "Type": "*widget.Label",
+                        "Struct": {
+                          "Hidden": false,
+                          "Text": "GoLab The International Conference on Go in Florence",
+                          "Alignment": 0,
+                          "Wrapping": 0,
+                          "TextStyle": {
+                            "Bold": false,
+                            "Italic": false,
+                            "Monospace": false,
+                            "Symbol": false,
+                            "TabWidth": 0,
+                            "Underline": false
+                          },
+                          "Truncation": 0,
+                          "Importance": 0
+                        }
+                      },
+                      {
+                        "Type": "*fyne.Container",
+                        "Layout": "Stack",
+                        "Objects": [
+                          {
+                            "Type": "*canvas.Rectangle",
+                            "Struct": {
+                              "Hidden": false,
+                              "FillColor": {
+                                "R": 244,
+                                "G": 255,
+                                "B": 66,
+                                "A": 255
+                              },
+                              "StrokeColor": {
+                                "R": 0,
+                                "G": 0,
+                                "B": 0,
+                                "A": 255
+                              },
+                              "StrokeWidth": 2,
+                              "CornerRadius": 0
+                            }
+                          },
+                          {
+                            "Type": "*fyne.Container",
+                            "Layout": "Center",
+                            "Objects": [
+                              {
+                                "Type": "*widget.RichText",
+                                "Name": "brandintro",
+                                "Struct": {
+                                  "Hidden": false,
+                                  "Segments": [
+                                    {
+                                      "Style": {
+                                        "Alignment": 0,
+                                        "ColorName": "",
+                                        "Inline": false,
+                                        "SizeName": "",
+                                        "TextStyle": {
+                                          "Bold": false,
+                                          "Italic": false,
+                                          "Monospace": false,
+                                          "Symbol": false,
+                                          "TabWidth": 0,
+                                          "Underline": false
+                                        }
+                                      },
+                                      "Text": "GoLab The International Conference on Go in Florence"
+                                    },
+                                    {
+                                      "Style": {
+                                        "Alignment": 0,
+                                        "ColorName": "",
+                                        "Inline": false,
+                                        "SizeName": "",
+                                        "TextStyle": {
+                                          "Bold": false,
+                                          "Italic": false,
+                                          "Monospace": false,
+                                          "Symbol": false,
+                                          "TabWidth": 0,
+                                          "Underline": false
+                                        }
+                                      },
+                                      "Text": ""
+                                    }
+                                  ],
+                                  "Wrapping": 0,
+                                  "Scroll": 3,
+                                  "Truncation": 0
+                                }
+                              }
+                            ],
+                            "Properties": {
+                              "layout": "Center",
+                              "name": ""
+                            }
+                          }
+                        ],
+                        "Properties": {
+                          "layout": "Stack",
+                          "name": ""
+                        }
+                      }
+                    ],
+                    "Properties": {
+                      "bottom": "1",
+                      "dir": "vertical",
+                      "layout": "Border",
+                      "left": "",
+                      "right": "",
+                      "top": "0"
+                    }
+                  },
+                  "Icon": "HomeIcon",
+                  "Text": "Home"
+                },
+                {
+                  "Content": {
+                    "Type": "*fyne.Container",
+                    "Layout": "Stack",
+                    "Objects": [
+                      {
+                        "Type": "*widget.Accordion",
+                        "Name": "schedule",
+                        "Struct": {
+                          "Items": [
+                            {
+                              "Detail": {
+                                "Type": "*widget.Label",
+                                "Struct": {
+                                  "Hidden": true,
+                                  "Text": "The content goes here",
+                                  "Alignment": 0,
+                                  "Wrapping": 0,
+                                  "TextStyle": {
+                                    "Bold": false,
+                                    "Italic": false,
+                                    "Monospace": false,
+                                    "Symbol": false,
+                                    "TabWidth": 0,
+                                    "Underline": false
+                                  },
+                                  "Truncation": 0,
+                                  "Importance": 0
+                                }
+                              },
+                              "Title": "Item 1"
+                            },
+                            {
+                              "Detail": {
+                                "Type": "*widget.Label",
+                                "Struct": {
+                                  "Hidden": true,
+                                  "Text": "Content part 2 goes here",
+                                  "Alignment": 0,
+                                  "Wrapping": 0,
+                                  "TextStyle": {
+                                    "Bold": false,
+                                    "Italic": false,
+                                    "Monospace": false,
+                                    "Symbol": false,
+                                    "TabWidth": 0,
+                                    "Underline": false
+                                  },
+                                  "Truncation": 0,
+                                  "Importance": 0
+                                }
+                              },
+                              "Title": "Item 2"
+                            }
+                          ],
+                          "MultiOpen": false
+                        }
+                      }
+                    ],
+                    "Properties": {
+                      "dir": "vertical",
+                      "layout": "Stack",
+                      "name": ""
+                    }
+                  },
+                  "Icon": "QuestionIcon",
+                  "Text": "Schedule"
+                },
+                {
+                  "Content": {
+                    "Type": "*fyne.Container",
+                    "Layout": "Stack",
+                    "Objects": [
+                      {
+                        "Type": "*widget.List",
+                        "Name": "plan",
+                        "Struct": {
+                          "Hidden": false,
+                          "HideSeparators": false
+                        }
+                      }
+                    ],
+                    "Properties": {
+                      "dir": "vertical",
+                      "layout": "Stack"
+                    }
+                  },
+                  "Icon": "AccountIcon",
+                  "Text": "My Plan"
+                }
+              ],
+              "SelectedIndex": 0
+            }
+          }
+        ],
+        "Properties": {
+          "dir": "vertical",
+          "layout": "Stack"
+        }
+      },
+      "Name": ""
+    }
+  ]
+}
