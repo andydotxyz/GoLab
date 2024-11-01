@@ -139,25 +139,6 @@
                         }
                       },
                       {
-                        "Type": "*widget.Label",
-                        "Struct": {
-                          "Hidden": false,
-                          "Text": "GoLab The International Conference on Go in Florence",
-                          "Alignment": 0,
-                          "Wrapping": 0,
-                          "TextStyle": {
-                            "Bold": false,
-                            "Italic": false,
-                            "Monospace": false,
-                            "Symbol": false,
-                            "TabWidth": 0,
-                            "Underline": false
-                          },
-                          "Truncation": 0,
-                          "Importance": 0
-                        }
-                      },
-                      {
                         "Type": "*fyne.Container",
                         "Layout": "Stack",
                         "Objects": [

@@ -5,13 +5,14 @@ package main
 
 import (
 	"fmt"
+	"image/color"
+	"net/url"
+
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/canvas"
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/theme"
 	"fyne.io/fyne/v2/widget"
-	"image/color"
-	"net/url"
 )
 
 type gui struct {
@@ -52,7 +53,6 @@ func (g *gui) makeUI() fyne.CanvasObject {
 				&widget.Label{Text: "November 11th - 13th 2024", Alignment: 1, Wrapping: 0}),
 			nil,
 			nil,
-			widget.NewLabel("GoLab The International Conference on Go in Florence"),
 			container.NewStack(
 				&canvas.Rectangle{FillColor: &color.NRGBA{R: 0xf4, G: 0xff, B: 0x42, A: 0xff}, StrokeColor: &color.NRGBA{R: 0x0, G: 0x0, B: 0x0, A: 0xff}, StrokeWidth: 2, CornerRadius: 0},
 				container.NewCenter(
